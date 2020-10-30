@@ -37,13 +37,11 @@ h1 {
 }
 
 .card {
-  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background: white;
   width: 300px;
 }
-
 
 .card img {
   height: 300px;
@@ -75,10 +73,29 @@ h3 {
   font-size: 2em;
 }
 
-.class-subheading:hover {
-  color:white;
+.container {
+  padding: 2px 16px;
+  color: black;
 }
 
+.container img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 3.5em;
+  font-family: "Easy script";
+  margin-bottom: 0;
+}
+
+.class-subheading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.class-subheading a {
+  font-family: "Easy script";
+  font-size: 2em;
+}
 
 .container {
   padding: 2px 16px;
@@ -104,35 +121,30 @@ h3 {
   font-size: 2em;
 }
 
-
-.container {
-  padding: 2px 16px;
-  color: black;
-}
-
-.container img {
-  width: 100%;
-}
-
-h3 {
-  font-size: 3.5em;
-  font-family: "Easy script";
-  margin-bottom: 0;
-}
-
-.class-subheading {
-  text-align: center;
-  margin-bottom: 50px;
-}
-.class-subheading a {
-  font-family: "Easy script";
-  font-size: 2em;
-}
-
-.card:hover{
+.card:hover {
   transform: translate(20px);
+}
 
+.class-subheading:hover {
+  color: white;
+}
 
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  margin-left: 100px;
+}
+
+.header h1 {
+  position: left;
+  top: 18px;
+  left: 10px;
+}
+
+.class-subheading a:hover {
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -140,4 +152,3 @@ h3 {
     background-color: lightblue;
   }
 }
-  ` 

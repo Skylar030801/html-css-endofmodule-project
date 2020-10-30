@@ -97,13 +97,51 @@ h3 {
   font-size: 2em;
 }
 
+.class-subheading a:hover {
+  background-color: white;
+}
+
 p {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 form {
   margin-right: 30%;
-  font-size: 25px;
+  font-size: 50px;
+}
+
+.form label {
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+.form-input {
+  display: inline-block;
+  text-align: left;
+  float: right;
+}
+
+button {
+  width: 200px;
+}
+
+button:hover {
+  color: purple;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  margin-left: 100px;
+}
+
+.header h1 {
+  position: left;
+  top: 18px;
+  left: 10px;
 }
 
 @media only screen and (max-width: 600px) {

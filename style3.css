@@ -97,6 +97,27 @@ h3 {
   font-size: 2em;
 }
 
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  margin-left: 100px;
+}
+
+.header h1 {
+  position: left;
+  top: 18px;
+  left: 10px;
+}
+.class-subheading a:hover {
+  background-color: white;
+}
+
+p {
+  font-size: 25px;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
